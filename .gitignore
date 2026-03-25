@@ -1,0 +1,19 @@
+## Gitignore
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Directories
+target/
+logs/
+
+# File extensions
+*.jar
+*.log
+
+# Files
+application-local.properties
+.DS_Store
+Thumbs.db

@@ -12,7 +12,7 @@
 		<relativePath />
 	</parent>
 
-    <groupId>Grupo 1</groupId>
+    <groupId>grupo1</groupId>
     <artifactId>RecifeCultural-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
