@@ -20,7 +20,7 @@
 
     <modules>
 		<module>domain-shared</module>
-        <module>domain-schedule</module>
+        <module>domain-agenda</module>
         <module>domain-space</module>
         <module>domain-publicity</module>
         <module>domain-identity</module>

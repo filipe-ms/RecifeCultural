@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>RecifeCultural-domain-schedule</artifactId>
+            <artifactId>RecifeCultural-domain-agenda</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

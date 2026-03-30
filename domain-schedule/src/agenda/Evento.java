@@ -1,4 +1,4 @@
-package recifecultural.schedule.domain;
+package recifecultural.agenda.domain;
 
 import java.math.BigDecimal;
 import java.net.URI;
