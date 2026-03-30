@@ -70,6 +70,9 @@ public class Evento {
 
     public void adicionarDataApresentacao(LocalDateTime dataHora) {
         if (dataHora == null) throw new IllegalArgumentException("Data de apresentação não pode ser nula.");
+        if (dataInicio == null || dataFim == null) {
+            throw new IllegalStateException("Datas de início e fim do evento devem estar definidas para adicionar uma apresentação.");
+        }
         if (dataHora.isBefore(dataInicio) || dataHora.isAfter(dataFim)) {
             throw new IllegalArgumentException("A data deve estar entre a data de início e a de fim do evento.");
         }
