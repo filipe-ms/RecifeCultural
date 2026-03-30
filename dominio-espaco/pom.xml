@@ -6,12 +6,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>Grupo 1</groupId>
-        <artifactId>RecifeCultural-parent</artifactId>
+        <groupId>1</groupId>
+        <artifactId>RecifeCultural-pai</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>RecifeCultural-domain-publicity</artifactId>
+    <artifactId>RecifeCultural-dominio-espaco</artifactId>
     
 	<build>
 		<plugins>
@@ -24,7 +24,7 @@
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>RecifeCultural-domain-shared</artifactId>
+            <artifactId>RecifeCultural-dominio-compartilhado</artifactId>
             <version>${project.version}</version>
         </dependency>
 

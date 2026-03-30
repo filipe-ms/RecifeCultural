@@ -8,26 +8,26 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>4.0.3</version>
+		<version>4.0.5</version>
 		<relativePath />
 	</parent>
 
-    <groupId>Grupo 1</groupId>
-    <artifactId>RecifeCultural-parent</artifactId>
+    <groupId>1</groupId>
+    <artifactId>RecifeCultural-pai</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <packaging>pom</packaging>
     
     <modules>
-		<module>domain-shared</module>
-        <module>domain-schedule</module>
-        <module>domain-space</module>
-        <module>domain-publicity</module>
-        <module>domain-identity</module>
-        <module>application</module>
-        <module>infrastructure</module>
-        <module>presentation-frontend</module>
-        <module>presentation-backend</module>
+		<module>dominio-compartilhado</module>
+        <module>dominio-agenda</module>
+        <module>dominio-publicidade</module>
+        <module>dominio-identidade</module>
+        <module>dominio-espaco</module>
+        <module>aplicacao</module>
+        <module>infraestrutura</module>
+        <module>apresentacao-frontend</module>
+        <module>apresentacao-backend</module>
     </modules>
 
 	<properties>

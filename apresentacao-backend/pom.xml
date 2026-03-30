@@ -6,12 +6,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>Grupo 1</groupId>
-        <artifactId>RecifeCultural-parent</artifactId>
+        <groupId>1</groupId>
+        <artifactId>RecifeCultural-pai</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>RecifeCultural-presentation-backend</artifactId>
+    <artifactId>RecifeCultural-apresentacao-backend</artifactId>
     
 	<profiles>
 		<profile>
@@ -35,19 +35,19 @@
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>RecifeCultural-application</artifactId>
+            <artifactId>RecifeCultural-aplicacao</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>RecifeCultural-presentation-frontend</artifactId>
+            <artifactId>RecifeCultural-apresentacao-frontend</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>Grupo 1</groupId>
-            <artifactId>RecifeCultural-infrastructure</artifactId>
+            <groupId>1</groupId>
+            <artifactId>RecifeCultural-infraestrutura</artifactId>
             <version>${project.version}</version>
             <scope>runtime</scope>
         </dependency>        
