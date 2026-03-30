@@ -44,7 +44,7 @@ public class Evento {
         this.id = UUID.randomUUID();
         this.promotor = promotor;
         this.local = local;
-        this.titulo = titulo;
+        setTitulo(titulo);
         this.descricaoCurta = descricaoCurta;
         this.descricaoLonga = descricaoLonga;
 
